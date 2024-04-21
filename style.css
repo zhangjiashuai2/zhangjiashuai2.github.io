@@ -1,0 +1,116 @@
+body {
+  background-image: url("首页背景图.png");
+  background-size: cover;
+  background-position: center top 80px;
+  background-clip: padding-box;
+  margin: 0px;
+}
+
+.header {
+  background-color: #002244;
+  padding: 14px;
+  text-align: center;
+}
+
+.header a {
+  display: inline-block;
+  margin: 8px;
+  color: #CCCCCC;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.main-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.main-content h2 {
+  font-family: "华文行楷", cursive;
+  color: #333333;
+}
+
+.title-large {
+  font-size: 70px;
+}
+
+.title-small {
+  font-size: 45px;
+}
+
+.container {
+  display: flex;
+}
+
+.image {
+  width: 468px;
+  height: 640px;
+}
+
+.text {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.text-box {
+  border: 2px solid #555;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text p {
+  font-family: "华文行楷", cursive;
+  font-size: 22px;
+  color: #555;
+}
+
+.paragraph {
+  line-height: 1.5;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.image {
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: translateY(-5px);
+}
+
+.text-box {
+  margin-top: 0px;
+  transition: transform 0.3s ease;
+}
+
+.text-box:hover {
+  transform: translateY(-5px);
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.title {
+  font-family: "华文行楷", serif;
+  font-size: 26px;
+  color: rgb(25, 16, 16);
+}
+
+.paragraph {
+  font-family: "华文行楷", serif;
+  font-size: 24px;
+  color: rgb(25, 16, 16);
+}
